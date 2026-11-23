@@ -6,6 +6,7 @@
   bridge_verdict: SOTA-OK
   bridge_verdict_reason: "Jumeau solver-free by design : les deux côtés illustrent trois objets finis (budgets, quatre machines booléennes et observations bornées), sans prétendre construire une machine universelle ni démontrer une hiérarchie asymptotique. Python utilise ses entiers natifs ; C# utilise BigInteger et bool? pour représenter les budgets et observations du même modèle. Aucun moteur externe n'est requis par l'expérience source."
   known_differences:
+    - "2026-11-23 (myia-po-2023:CoursIA, issue #22267) : re-attestation apres audit firsthand -- la ligne Navigation de la cellule 0 du jumeau C# retargete son lien [03b] de la version Python vers le carnet C# jumeau (Complexity-03b-HartmanisStearns-HierarchieTemporelle-CSharp.ipynb). Edition markdown-only : 23 cellules de part et d'autre, aucune cellule de code touchee, execution_count et sorties intacts. La paire Complexity-03c porte le lien reciproque depuis le 2026-11-21."
     - "Rebaseline 2026-11-21 (myia-po-2028:claudish, PR CoursIA #27311) : la ligne Navigation du jumeau C# gagne le lien entrant [03b (C#)] vers le nouveau Hartmanis-Stearns CSharp — edition metadata-only, aucun changement de cellule de code ni de sortie."
     - "Le calcul Python utilise les entiers arbitraires natifs ; le port C# utilise System.Numerics.BigInteger."
     - "Le port C# rend l'absence d'observation explicite avec bool? ; Python emploie None."
