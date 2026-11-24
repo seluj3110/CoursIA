@@ -1,4 +1,4 @@
-> REFERENCE — vivante — dernière révision 2026-11-21
+> REFERENCE — vivante — dernière révision 2026-11-24
 
 # Matrice coût/ressource par notebook
 
